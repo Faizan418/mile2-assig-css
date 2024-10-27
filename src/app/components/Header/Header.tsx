@@ -23,10 +23,10 @@ function Header() {
           </div>
 
           <ul className={`${styles.ul_Links} ${menuActive ? styles.active : ''}`}>
-            <li className={styles.ul_li}><Link href="#home">HOME</Link></li>
-            <li className={styles.ul_li}><Link href="/">ABOUT</Link></li>
-            <li className={styles.ul_li}><Link href="/">PORTFOLIO</Link></li>
-            <li className={styles.ul_li}><Link href="/">PROJECTS</Link></li>
+            <Link href="#home"><li className={styles.ul_li}>HOME</li></Link>
+            <Link href="/"><li className={styles.ul_li}>ABOUT</li></Link>
+            <Link href="/"><li className={styles.ul_li}>PORTFOLIO</li></Link>
+            <Link href="/"><li className={styles.ul_li}>PROJECTS</li></Link>
           </ul>
 
           <div className={styles.extra_hidden}></div>
@@ -43,14 +43,26 @@ function Header() {
         </nav>
       </div>
 {/* --------------------------------------------------------------------- */}
-      {/* <div className={styles.headerbody} id='home'>
+      <div className={styles.headerbody} id='home'>
+
         <div className={styles.header_text}>
           <div className={styles.hea1hea2}>
             <h1 className={styles.hea1}>Hello.</h1>
             <h2 className={styles.hea2}>We are Flare. We love <br /> building great brands <br /> & digital experiences.</h2>
+
+            <div className={styles.social_icons}>
+             
+             <div className={styles.s_icons}><Image className={styles.icons_svg} src={'/images/facebook.svg'} alt='icon' height={22} width={22}/></div>
+             <div className={styles.s_icons}><Image className={styles.icons_svg} src={'/images/instagram.svg'} alt='icon' height={22} width={22}/></div>
+             <div className={styles.s_icons}><Image className={styles.icons_svg} src={'/images/linkedin.svg'} alt='icon' height={22} width={22}/></div>
+             <div className={styles.s_icons}><Image className={styles.icons_svg} src={'/images/twitter-x.svg'} alt='icon' height={22} width={22}/></div>
+
+            </div>
+
           </div>
         </div>
-      </div> */}
+  
+      </div>
     </div>
   );
 }
