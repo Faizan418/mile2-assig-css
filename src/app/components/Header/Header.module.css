@@ -212,6 +212,9 @@ display: block;
     .hea2{
         font-size: 24px;
     }
+    .hea1hea2{
+        margin-left: 0;
+    }
 }
 @media(max-width: 300px){
     .hea1{
