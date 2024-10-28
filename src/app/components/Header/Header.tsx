@@ -21,8 +21,8 @@ function Header() {
               className={styles.logo}
               src={"/images/perfect-logo.png"}
               alt="logo"
-              height={120}
-              width={120}
+              height={130}
+              width={130}
             />
           </div>
 
