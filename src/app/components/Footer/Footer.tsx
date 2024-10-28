@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
           <div className={styles.footer_div_three}>
               <h3 className={styles.footers_headrs}>------------</h3>
-                <button className={styles.footers_pera_btn} type="button">LET'S TALK</button>
+                <button className={styles.footers_pera_btn} type="button">LET&rsquo;S TALK</button>
             <div className={styles.last}>
                 <p className={styles.footers_pera}>Copyright Flare 2024 | </p>
                 <p className={styles.footers_pera}>Design by StyleShout Distribution  By</p>
