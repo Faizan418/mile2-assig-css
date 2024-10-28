@@ -1,3 +1,114 @@
-body{
-    
+.containar {
+  background-color: #111213;
+}
+
+.free {
+  /* border: 1px solid blue; */
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.one {
+  height: 45vh;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+.two {
+  width: 50%;
+  height: 45vh;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+}
+.hidnimage {
+  /* border: 1px solid red;   */
+  display: flex;
+}
+.head_01 {
+  /* text-align: left; */
+  padding-top: 150px;
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(54, 53, 53);
+  position: relative;
+  left: 20px;
+}
+.hero_section {
+  /* border: 1px solid white; */
+  display: flex;
+}
+.one_one {
+  /* border: 1px solid blue; */
+  height: 100vh;
+  width: 50%;
+  color: white;
+  padding: 50px;
+  align-items: center;
+  align-content: center;
+  /* text-align: justify; */
+}
+.oneone_head1 {
+  font-size: 43px;
+  font-weight: 700;
+}
+.oneone_pera {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #757373;
+}
+.two_two {
+  /* border: 1px solid blue; */
+  height: 100vh;
+  width: 50%;
+  justify-content: space-around;
+  /* padding: 80px; */
+  align-content: center;
+}
+.two_twoimage {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+@media (max-width: 1200px) {
+  .oneone_head1 {
+    font-size: 33px;
+    font-weight: 700;
+  }
+  .oneone_pera {
+    font-size: 18px;
+  }
+}
+@media (max-width: 950px) {
+  .two_two {
+    display: none;
+  }
+  .one_one {
+    width: 100%;
+    /* justify-content: center; */
+    text-align: center;
+  }
+}
+@media (max-width: 510px) {
+  .oneone_head1 {
+    font-size: 29px;
+    font-weight: 700;
+  }
+  .oneone_pera {
+    font-size: 17px;
+  }
+  .one_one {
+    padding: 30px;
+  }
+}
+@media (max-width: 410px) {
+  .oneone_head1 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .oneone_pera {
+    font-size: 14px;
+  }
+  .one_one {
+    padding: 10px;
+  }
 }
