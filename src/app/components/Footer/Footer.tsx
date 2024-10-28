@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../Footer/Footer.module.css'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -30,22 +31,22 @@ export default function Footer() {
                 <h1 className={styles.footers_pera}>C/o R-505 Rafi Bunglows,</h1>
                 <h1 className={styles.footers_pera}>Malir-15 Karachi</h1>
                 <h1 className={styles.footers_pera}>+92 PKR</h1>
-                <h1 className={styles.footers_pera}>0304-0604-4359</h1>
+                <h1 className={styles.footers_pera}>030-40604-4359</h1>
           </div> 
           <div className={styles.footer_div_two}>
               <h3 className={styles.footers_headrs}>FOLLOW US</h3>
-                <h1 className={styles.footers_pera}>Facebook</h1>
-                <h1 className={styles.footers_pera}>Whatsapp</h1>
-                <h1 className={styles.footers_pera}>Instagram</h1>
-                <h1 className={styles.footers_pera}>Twitter</h1>
+                <h1 className={styles.footers_pera}><Link href={"https://web.facebook.com/faizan.soomro.963"} target="_blank">Facebook</Link></h1>
+                <h1 className={styles.footers_pera}><Link href={"https://wa.me/+923406044359"} target="_blank">Whatsapp</Link></h1>
+                <h1 className={styles.footers_pera}><Link href={"https://www.instagram.com/fazii.963/"} target="_blank">Instagram</Link></h1>
+                <h1 className={styles.footers_pera}><Link href={"https://x.com/muhammadf4060"} target="_blank">Twitter</Link></h1>
           </div>
           <div className={styles.footer_div_three}>
               <h3 className={styles.footers_headrs}>------------</h3>
                 <button className={styles.footers_pera_btn} type="button">LET&rsquo;S TALK</button>
             <div className={styles.last}>
-                <p className={styles.footers_pera}>Copyright Flare 2024 | </p>
-                <p className={styles.footers_pera}>Design by StyleShout Distribution  By</p>
-                <p className={styles.footers_pera}>Muhammad Faizan</p>
+                <p className={styles.footers_pera_l}>Copyright Flare 2024 | </p>
+                <p className={styles.footers_pera_l}>Design by StyleShout Distribution  By</p>
+                <p className={styles.footers_pera_l}>Muhammad Faizan</p>
             </div>
 
           </div>

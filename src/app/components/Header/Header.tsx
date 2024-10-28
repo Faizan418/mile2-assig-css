@@ -71,6 +71,7 @@ function Header() {
 
             <div className={styles.social_icons}>
               <div className={styles.s_icons}>
+              <Link href={"https://web.facebook.com/faizan.soomro.963"} target="_blank">
                 <Image
                   className={styles.icons_svg}
                   src={"/images/facebook.svg"}
@@ -78,8 +79,10 @@ function Header() {
                   height={22}
                   width={22}
                 />
+              </Link>
               </div>
               <div className={styles.s_icons}>
+              <Link href={"https://www.instagram.com/fazii.963/"} target="_blank">
                 <Image
                   className={styles.icons_svg}
                   src={"/images/instagram.svg"}
@@ -87,8 +90,10 @@ function Header() {
                   height={22}
                   width={22}
                 />
+              </Link>
               </div>
               <div className={styles.s_icons}>
+              <Link href={"https://www.linkedin.com/in/muhammad-faizan-2541132b8"} target="_blank">
                 <Image
                   className={styles.icons_svg}
                   src={"/images/linkedin.svg"}
@@ -96,8 +101,10 @@ function Header() {
                   height={22}
                   width={22}
                 />
+              </Link>
               </div>
               <div className={styles.s_icons}>
+              <Link href={"https://x.com/muhammadf4060"} target="_blank">
                 <Image
                   className={styles.icons_svg}
                   src={"/images/twitter-x.svg"}
@@ -105,6 +112,7 @@ function Header() {
                   height={22}
                   width={22}
                 />
+              </Link>
               </div>
             </div>
           </div>
